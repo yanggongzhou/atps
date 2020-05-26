@@ -1,0 +1,227 @@
+body, p, h1,h5,ul ,li{
+  margin: 0;
+  padding: 0
+}
+ul{  list-style:none;  }
+
+.left{
+  float:left;
+}
+.right{
+  float: right;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix{zoom:1}
+
+.dn{
+  display: none;
+}
+.center{
+  text-align: center;
+}
+.mb10{
+  margin-bottom: 10px;
+}
+.mr10{
+  margin-right: 10px;
+}
+.ml10{
+  margin-left: 10px;
+}
+.ml20{
+  margin-left: 20px;
+}
+.mr20{
+  margin-right: 20px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.m10{
+  margin: 10px;
+}
+.mt5{
+  margin-top: 5px;
+}
+.mt10{
+  margin-top: 10px;
+}
+.p10{
+  padding: 10px;
+}
+.p20{
+  padding: 20px;
+}
+.pt20{
+  padding-top: 20px;
+}
+.mh100{
+  min-height: 100%;
+}
+.h100{
+  height: 100%;
+}
+.w100{
+  width: 100%;
+}
+.dilb{
+  display: inline-block;
+}
+/*详情页的标题头*/
+.titleBox{
+  text-align: left;
+  font-size: 14px;
+  position: relative;
+  padding: 7px 0;
+  border-bottom: 2px solid #01babc;
+  margin-bottom: 20px;
+}
+.titleBox:before{
+  content:'';
+  position: absolute;
+  left: 12px;
+  top:6px;
+  width: 4px;
+  height: 60%;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.titleSpan{
+  background-color: #01babc;
+  border-radius: 2px 38px 38px 2px;
+  color: #fff;
+  padding: 8px 26px;
+}
+/*查询项目*/
+.searchBox{
+  padding: 10px;
+  background-color: #dee3e8;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+.searchBox .ivu-form-item{
+  width: 30%;
+  margin-bottom: 0;
+  max-width: 280px;
+}
+.peopleSearchBox{
+  padding: 10px;
+  background-color: #dee3e8;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+.peopleSearchBox .ivu-form-item{
+  width: 30%;
+  margin-bottom: 0;
+  max-width: 180px;
+}
+.machineSearchBox{
+  padding: 10px;
+  background-color: #dee3e8;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+.machineSearchBox .ivu-form-item{
+  width: 30%;
+  margin-bottom: 0;
+  max-width: 150px;
+}
+/*表格表头*/
+.tableBox .ivu-table th{
+  background-color: #cbdff5;
+  color: #353535;
+}
+.tableBox .ivu-spin-fix{
+  opacity: 0.6;
+}
+/*表单弹框*/
+.ModalBox .ivu-modal-header{
+  background-color: #515a6e;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  box-shadow: 0 3px 9px #808EA4;
+  border-bottom: 0;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.ModalBox .ivu-modal-content{
+  background-color: #fffbea;
+}
+/*分页*/
+.pageSizeBox{
+  margin-top: 20px;
+}
+/*vue-json-edit*/
+div.jsoneditor{
+  border: 1px solid #787e8c!important;
+}
+div.jsoneditor-menu{
+  background-color: #787e8c!important;
+  border-bottom: 1px solid #787e8c!important;
+  border-radius: 3px;
+}
+div.jsoneditor-menu a.jsoneditor-poweredBy{
+  display: none!important;
+}
+.jsoneditor-vue{
+  /*height: 150px;*/
+}
+/*表头挂件*/
+.sb-title{
+  border-bottom: 10px solid #4d8dd0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  color: white;
+  margin: 0 auto;
+}
+.title-font-one{
+  width: 110px;
+}
+.title-font-two{
+  width: 174px;
+  margin-top: 20px;
+}
+.sb-title-span{
+  background: #5eaafb;
+  position: absolute;
+  padding: 7px 15px;
+  font-size: 14px;
+  border-radius: 0 0 5px 5px;
+  letter-spacing: 2px;
+}
+/*抽屉表头和脚*/
+.apply-drawer-footer{
+  width: 100%;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  border-top: 1px solid #e8e8e8;
+  padding: 10px 16px;
+  text-align: right;
+  background: #fff;
+}
+.apply-drawer .ivu-drawer-header{
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #e6e8ea;
+  background: #425971;
+  box-shadow: 0 0 10px 2px #969696;
+  border-bottom: none;
+}
+/*notice提示框自动换行*/
+.ivu-notice-desc{
+  word-wrap: break-word;
+}

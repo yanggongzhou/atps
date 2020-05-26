@@ -1,0 +1,46 @@
+
+/*模拟器申请style*/
+.taskExpandAll{
+  padding: 5px;
+  background: #e0e0e0;
+  border-radius: 3px;
+}
+.taskExpand-header{
+  padding: 5px 0;
+}
+.taskExpand-title{
+  background: #515a6e;
+  padding: 7px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  border: 2px solid #fff;
+}
+.taskExpandBox-edit{
+  display: inline-block;
+  margin-left: 10px;
+}
+.tableApplyBox .ivu-table th{
+  background-color: #c5c8ce !important;
+}
+.simu-modal-table .ivu-table-row-highlight td,
+.simu-modal-table .ivu-table-stripe .ivu-table-body tr.ivu-table-row-highlight:nth-child(2n) td,
+.simu-modal-table .ivu-table-stripe .ivu-table-fixed-body tr.ivu-table-row-highlight:nth-child(2n) td,
+.simu-modal-table tr.ivu-table-row-highlight.ivu-table-row-hover td{
+  background-color: #aecbde !important;
+}
+/*参数文件和安全组件表格文件上传样式*/
+.table-upload-span{
+  display: inline-block;
+  margin-bottom: -6px;
+  width: 70px;
+  height: 15px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.table-upload-span:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,6 @@
+@media screen and (max-width : 576px){
+  .ivu-modal{
+    width: auto !important;
+    margin: 10px;
+  }
+}
